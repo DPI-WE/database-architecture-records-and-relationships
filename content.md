@@ -52,7 +52,7 @@ Naming join tables can also be a subjective process. Choose names that make sens
   - Not quite! A city can have many neighborhoods, so the foreign key should be in the Neighborhoods table.
 - Neighborhoods table
   - Correct! The Neighborhoods table should reference the Cities table.
-{: .choose_best #cities_neighborhoods_foreign_key title="Cities and Neighborhoods: foreign key" points="1" answer="2" }
+{: .choose_best #cities_neighborhoods_foreign_key_table title="Cities and Neighborhoods: foreign key" points="1" answer="2" }
 
 - If we model Cities and Neighborhoods as a one-to-many relationship, what's a good name for the foreign key column?
 - `id`
@@ -63,7 +63,7 @@ Naming join tables can also be a subjective process. Choose names that make sens
   - Not quite!
 - `city_id`
   - Correct! It's a good practice to reference the table name followed by `id` to indicate it's a foreign key.
-{: .choose_best #cities_neighborhoods_foreign_key title="Cities and Neighborhoods: foreign key column name" points="1" answer="4" }
+{: .choose_best #cities_neighborhoods_foreign_key_name title="Cities and Neighborhoods: foreign key column name" points="1" answer="4" }
 
 - How would you model the relationship between Authors and Books?
 - **one-to-many**
